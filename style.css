@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 25;
+    padding: 25;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: conic-gradient(rgba(4, 105, 193, 0.767), rgb(114, 183, 237), rgba(4, 105, 193, 0.762));
+    background-size: cover;
+    text-align: center ;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+ }
+
+img {
+    border-radius: 50% ;
+    opacity: 0.8 ;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.389) ;
+     }
+ img:hover{
+    
+    transition: 2s;
+    border-radius: 0%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+ }
+button{
+    background-color: rgba(149, 190, 203, 0);
+    color: black;
+    border: 2px solid rgb(11, 0, 0);
+    text-decoration: wavy;
+    margin-top: 20px;
+    border-radius: 25px;
+    font-size: small;
+    padding: 5px 25px;
+  
+}
+button:hover{
+   background-color:rgba(210, 210, 224, 0.562);
+   box-shadow:10px 10px 10px rgba(0, 0, 0, 0.389);
+   font-weight: bold;
+}
+
+.center{
+   position: relative;
+ margin: 75px;
+ background-color: rgba(255, 248, 248, 0.616) ;
+ border-radius: 15px;
+ padding-bottom: 20px;
+ box-shadow:10px 10px 10px rgba(0, 0, 0, 0.389);
+ border-color: black;
+ 
+}
+.center:hover{
+    font-weight:bold;
+    background-color: rgba(144, 141, 141, 0.177);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.47);
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255),rgba(195, 229, 252, 0.829), rgb(250, 251, 251))     
+}
+.center h1{
+    text-align: center;
+   border-bottom: 4px solid rgb(0, 0, 0);
+   border-radius: 8px;
+   padding: 25px;
+   font-weight:bolder;
+    
+   text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(186, 247, 252), 1px 0 rgb(226, 247, 255), 0 -1px rgb(252, 254, 255); 
+}
+    
+h2{
+    text-align: center;
+    border-bottom: 4px solid rgba(10, 0, 0, 0.538);
+    border-radius: 8px;
+    padding: 15px;
+    font-weight:bolder;
+    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(212, 205, 205), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 252, 252); 
+}
+#Connect{
+    position: relative;
+    margin: 75px;
+    background-color: rgba(0, 0, 0, 0.149) ;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.389)
+}
+#social{
+    text-align: center;
+   
+}
